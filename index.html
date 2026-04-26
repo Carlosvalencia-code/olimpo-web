@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLIMPO | Sistemas de Cremación para Mascotas en Perú</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --olimpo-orange: #FF6B35;
+            --olimpo-coal: #121212;
+            --olimpo-steel: #4A4E69;
+            --olimpo-ash: #F8F9FA;
+        }
+        body { font-family: 'DM Sans', sans-serif; background-color: var(--olimpo-ash); color: var(--olimpo-coal); }
+        h1, h2, h3 { font-family: 'Archivo Black', sans-serif; text-transform: uppercase; }
+        .bg-coal { background-color: var(--olimpo-coal); }
+        .text-orange { color: var(--olimpo-orange); }
+        .bg-orange { background-color: var(--olimpo-orange); }
+        .border-orange { border-color: var(--olimpo-orange); }
+    </style>
+</head>
+<body>
+    <nav class="bg-coal text-white p-6 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold flex items-center gap-2">
+                <img src="logo-olimpo.png" alt="OLIMPO Logo" class="h-10 w-auto">
+                <span class="tracking-tighter">OLIMPO</span>
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-medium">
+                <a href="#soluciones" class="hover:text-orange transition">SOLUCIONES</a>
+                <a href="#proceso" class="hover:text-orange transition">PROCESO</a>
+                <a href="#contacto" class="bg-orange px-5 py-2 rounded text-white font-bold">CONTACTAR</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-coal text-white py-24 px-6 border-b-4 border-orange">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h1 class="text-5xl md:text-7xl mb-6 leading-none">Infraestructura que <span class="text-orange">funciona</span></h1>
+            <p class="text-xl text-gray-400 mb-10 font-light">Diseño, construcción e instalación llave en mano de sistemas de cremación para mascotas en Perú. Ingeniería industrial para el sector B2B.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#contacto" class="bg-orange hover:bg-white hover:text-orange text-white px-8 py-4 text-lg font-bold transition">SOLICITAR COTIZACIÓN</a>
+                <a href="#soluciones" class="border border-white hover:bg-white hover:text-coal px-8 py-4 text-lg font-bold transition">VER SISTEMAS</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="soluciones" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl mb-12 border-l-8 border-orange pl-6">Nuestras Soluciones</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 border-b-4 border-steel-500 shadow-xl">
+                    <h3 class="text-xl mb-4">Hornos de Alta Eficiencia</h3>
+                    <p class="text-gray-600">Sistemas de combustión controlada que garantizan emisiones mínimas y cumplimiento normativo ambiental.</p>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-steel-500 shadow-xl">
+                    <h3 class="text-xl mb-4">Instalación Llave en Mano</h3>
+                    <p class="text-gray-600">Desde el plano civil hasta la puesta en marcha. Nos encargamos de toda la infraestructura técnica.</p>
+                </div>
+                <div class="bg-white p-8 border-b-4 border-steel-500 shadow-xl">
+                    <h3 class="text-xl mb-4">Mantenimiento Industrial</h3>
+                    <p class="text-gray-600">Soporte técnico especializado y suministro de repuestos para asegurar la continuidad de su operación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-coal text-white py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl mb-8">¿Listo para escalar su capacidad operativa?</h2>
+            <p class="mb-10 text-gray-400">Contáctenos para una consultoría técnica personalizada en Arequipa y todo el Perú.</p>
+            <a href="https://wa.me/tu-numero" class="text-4xl text-orange font-bold hover:underline">WhatsApp Directo</a>
+            <div class="mt-20 pt-8 border-t border-gray-800 text-sm text-gray-500">
+                &copy; 2026 OLIMPO Sistemas de Cremación. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
